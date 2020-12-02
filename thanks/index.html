@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+      <meta name="referrer" content="no-referrer">
+    <title>Thank you for your order!</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <style>
+        @import url('css/css2.css');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #F4F9FD;
+            font-family: "Montserrat", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            color: #2E2E2E;
+            line-height: 1.5;
+        }
+
+        img {
+            max-width: 100%;
+            border: 0;
+        }
+
+
+        ul {
+            margin: 0;
+            list-style: none;
+        }
+
+
+        .container {
+            max-width: 794px;
+            margin: auto;
+            margin-top: 75px;
+            margin-bottom: 230px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .success-page__header {
+            background-color: #28A6EA;
+            background: url('img/1.png') no-repeat center bottom,
+                #28A6EA linear-gradient(81.52deg, #28A6EA 35.1%, #127CDE 72.28%);
+            padding: 45px 10px 65px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .success-page__header-wrapper {
+            max-width: 528px;
+            margin: auto;
+        }
+
+        .success-page__header-check {
+            background: #3CD654;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            position: relative;
+            margin: auto;
+            margin-bottom: 25px;
+        }
+
+        .success-page__header-check::after,
+        .success-page__header-check::before {
+            content: "";
+            background: #fff;
+            position: absolute;
+        }
+
+        .success-page__header-check::before {
+            width: 14px;
+            height: 4px;
+            left: 19px;
+            top: 37px;
+            transform: rotate(45deg);
+        }
+
+        .success-page__header-check::after {
+            width: 28px;
+            height: 4px;
+            left: 26px;
+            top: 34px;
+            transform: rotate(135deg);
+        }
+
+        .success-page__title {
+            font-weight: bold;
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .success-page__title span {
+            text-transform: uppercase;
+        }
+
+        .success-page__message_success {
+            font-weight: 500;
+            line-height: 1.57;
+        }
+
+        .success-page__body {
+            background: #fff;
+            margin-top: -1px;
+            padding: 85px 10px 65px;
+        }
+
+        .success-page__body-wrapper {
+            max-width: 385px;
+            margin: auto;
+        }
+
+        .success-page__text {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 18px;
+        }
+
+        .list-info {
+            background: #F4F9FD;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+
+        .list-info__text {
+            color: #000;
+            font-weight: 600;
+            margin-right: 10px;
+        }
+
+        .success-page__message_fail__link {
+            color: #147FDF;
+            margin-bottom: 40px;
+            display: inline-block;
+        }
+
+        .success-page__message_fail__link:hover {
+            text-decoration: none;
+        }
+
+        .success-page__text {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        .success-page__form__input {
+            font-family: "Montserrat",
+                sans-serif;
+            outline: none;
+            height: 52px;
+            padding: 20px;
+            border: 1px solid #B8B8B8;
+            border-radius: 10px;
+            width: 100%;
+            margin-bottom: 25px;
+        }
+
+        .success-page__form__label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input::-webkit-input-placeholder {
+            color: #B8B8B8;
+        }
+
+        input::-moz-placeholder {
+            color: #B8B8B8;
+        }
+
+        input:-moz-placeholder {
+            color: #B8B8B8;
+        }
+
+        input:-ms-input-placeholder {
+            color: #B8B8B8;
+        }
+
+        .success-page__form__button {
+            font-size: 16px;
+            background: #3CD654;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+            color: #fff;
+            text-align: center;
+            width: 100%;
+            font-weight: 700;
+            border-radius: 10px;
+            padding: 15px;
+            transition: .3s;
+            cursor: pointer;
+        }
+
+        .success-page__form__button:hover {
+            box-shadow: none;
+            background: #27ac3b;
+
+        }
+
+        @media(max-width:795px) {
+            .container {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .success-page__header {
+                padding-top: 55px;
+            }
+
+            .success-page__title {
+                font-size: 24px;
+            }
+
+            .success-page__body {
+                padding: 30px 10px 130px;
+            }
+
+            .success-page__text {
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+
+    <!--pixel-->
+          <img height="1" width="1" src="https://www.facebook.com/tr?id=1107205239711920&ev=Lead&noscript=1"/>
+
+    <!--pixel-->
+
+    <div class="mod success-page">
+        <div class="container">
+            <div class="success-page__header">
+                <div class="success-page__header-wrapper">
+                    <div class="success-page__header-check"></div>
+                    <h2 class="success-page__title">
+                        <span>  Thank you for your order!
+                    </h2>
+                    <p class="success-page__message_success">
+                        You are on the right track!
+                        <br>
+                        Your parcel is almost on the way to you. Make sure your phone number was entered correctly and answer our manager's call to confirm the details.
+                    </p>
+                </div>
+            </div>
+            <div class="success-page__body">
+                <div class="success-page__body-wrapper">
+              
+        
+<br><br><br><br><br><br><br><br><br><br><br>
+
+                                
+                 
+                            </div>
+                     
+                    </div>
+                </div>
+            </div>
+    
+</body>
+
+</html>
